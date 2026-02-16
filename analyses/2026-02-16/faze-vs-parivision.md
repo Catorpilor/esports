@@ -414,5 +414,53 @@ X-FACTORS:
 
 ---
 
+## LIVE UPDATE — Match In Progress
+
+### Actual Veto
+
+```
+1. PARIVISION ban Nuke       (predicted: FaZe ban Mirage)     ❌
+2. FaZe ban Dust2            (predicted: PARIVISION ban Nuke) ❌
+3. PARIVISION pick Mirage    (predicted: FaZe pick Inferno)   ❌
+4. FaZe pick Ancient         (predicted: PARIVISION pick D2)  ❌
+5. FaZe ban Overpass         (predicted: FaZe ban Anubis)     ❌
+6. PARIVISION ban Anubis     (predicted: PARIVISION ban OVP)  ❌
+7. Decider: Inferno          (predicted: Decider Ancient)     ❌
+```
+
+**Veto Score: 0/7** — Complete miss. FaZe abandoned their Mirage permaban and banned Dust2 (PARIVISION's 83% map) instead. This forced PARIVISION to pick Mirage (70%) rather than Dust2 (83%). FaZe accepted playing on their 33% WR map to avoid PARIVISION's strongest weapon. Bold strategy.
+
+### Game 1: Mirage (PARIVISION Pick) — FaZe 13-2
+
+| Half | FaZe | PARIVISION | Side |
+|------|------|------------|------|
+| 1st | **10** | 2 | FaZe CT |
+| 2nd | **3** | 0 | FaZe T |
+| **Total** | **13** | **2** | **FaZe wins** |
+
+**FaZe wins PARIVISION's own map pick 13-2.** Absolute demolition. FaZe dominated CT side (10-2) and then closed it immediately on T side (3-0). PARIVISION managed just 2 rounds total on their 70% WR map. FaZe's Mirage "33% WR" stat was clearly irrelevant — karrigan hard-prepared for this specific matchup.
+
+**Series: FaZe leads 1-0**
+
+### Remaining Maps
+- Map 2: **Ancient** (FaZe pick) — FaZe 57% WR, PARIVISION 60% WR
+- Map 3: **Inferno** (Decider, if needed) — FaZe 60% WR, PARIVISION 55% WR
+
+### Updated Series Outlook
+
+With FaZe already up 1-0 having stolen PARIVISION's map pick, FaZe is now the heavy favorite:
+- **FaZe 2-0 (~50%)** — Momentum + Ancient is their pick. If FaZe shows up like they did on Mirage, this could be a sweep.
+- **FaZe 2-1 (~30%)** — PARIVISION takes Ancient, but FaZe wins Inferno decider (60% WR, their comfort map).
+- **PARIVISION 2-1 (~20%)** — PARIVISION would need to win BOTH remaining maps after a devastating 2-13 loss. Psychologically very difficult.
+
+### Prediction Assessment
+
+Our pre-match prediction of **PARIVISION 2-1** is looking very wrong. The key error was assuming FaZe would permaban Mirage. FaZe's veto innovation (ban Dust2 instead) completely changed the series dynamics. The model failed to account for opponent-specific veto adaptation.
+
+**Framework lesson:** A team's "permaban" is only permanent against generic opponents. When facing a team with an elite-tier map (PARIVISION's 83% Dust2), teams will sacrifice their permaban to remove the greater threat. Add this pattern to veto prediction logic.
+
+---
+
 *Analysis generated from HLTV.org and Polymarket data on February 16, 2026*
+*Live updates added during match*
 *Data sources: HLTV API (match, team, player endpoints), Polymarket Gamma API, web search for PGL Cluj results*
