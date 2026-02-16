@@ -327,6 +327,50 @@ The market has MongolZ at 54.5% heading into a Nuke decider where MongolZ is 0-3
 
 ---
 
+## LIVE UPDATE — Nuke Decider Result
+
+### Game 3: Nuke (Decider) — MongolZ 19-17 (OT)
+
+MongolZ wins the Nuke decider in overtime despite a **0% Nuke WR (0-3)** in the last 3 months. Regulation ended 12-12, then MongolZ pulled through 19-17 in deep OT.
+
+### Final Result: MongolZ wins 2-1
+
+| Map | Pick | MongolZ | B8 | Winner |
+|-----|------|---------|-----|--------|
+| Ancient | B8 | **13** | 9 | MongolZ |
+| Mirage | MongolZ | 7 | **13** | B8 |
+| Nuke | Decider | **19** | 17 (OT) | MongolZ |
+
+### Prediction vs Reality
+
+- **Predicted:** B8 wins 2-1 ❌ — **Wrong winner**
+- **Actual:** MongolZ wins 2-1
+- **Market call: B8 ML at 45.5% was "STRONG VALUE"** ❌ — **Wrong call**
+- The market at 54.5% MongolZ was actually correct — they knew something the stats didn't
+
+### Key Lessons
+
+**1. 0% WR can still produce a win in OT**
+MongolZ went from averaging 4.3 rounds on Nuke (scores of 4-13, 7-13, 2-13) to winning 19-17 in OT. This is the most extreme example of Principle #12 (Elimination Pressure) we've seen. A 0% WR map is NOT the same as a 0% chance of winning. The elimination pressure adjustment of +10-15% was far too conservative — the real adjustment was closer to +35%.
+
+**2. The market was smarter than the stats**
+Polymarket had MongolZ at 54.5% despite the 0% Nuke WR. The market was likely pricing in: (a) MongolZ's overall superiority as a team, (b) B8's equally unknown/bad Nuke, (c) intangibles like MongolZ's momentum from winning Game 1. Our model over-indexed on the 0% Nuke stat and underweighted the overall team quality.
+
+**3. "Unknown" opponent Nuke ≠ "good" opponent Nuke**
+We assumed B8's unknown Nuke was better than MongolZ's proven-bad Nuke. But B8 was ALSO bad on Nuke — hence the 12-12 regulation and deep OT. Both teams struggled, and in a battle of two bad Nuke teams, overall team quality matters more than map-specific WR.
+
+**4. Don't overweight map WR on small samples in extreme ways**
+0-3 on Nuke is technically 0%, but it's only 3 maps. The confidence interval on 0/3 is enormous — the true WR could be anywhere from 0% to 35%+. We treated 0% as near-absolute when we should have applied small sample skepticism (Principle #10) more aggressively.
+
+**5. OT is even more common than we thought**
+Third match in a row with OT in our tracked matches (NAVI 16-12 Inferno, now MongolZ 19-17 Nuke). Principle #16 (OT frequency) is being validated repeatedly.
+
+### Framework Update Needed
+- **Principle #12 adjustment:** For maps with 0% WR on small samples (≤5 maps), the elimination pressure adjustment should be +20-30%, not +10-15%. A team can't actually be 0% on any map — they have players, they have utility, they have structure. The 0% is a sample artifact.
+- **Market respect rule:** When the market disagrees significantly with your stat-based model (>15% gap), consider that the market may be incorporating information you can't see (team scrims, internal Nuke practice, coaching prep). Don't assume the market is wrong just because one stat is extreme.
+
+---
+
 *Analysis generated from HLTV.org and Polymarket data on February 16, 2026*
-*Match is LIVE — Nuke decider pending*
+*Live updates added during match. Post-match analysis completed.*
 *Data sources: HLTV API (match, team, player endpoints), Polymarket Gamma API, Liquipedia*
