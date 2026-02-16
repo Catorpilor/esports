@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.hltv.org)",
+      "WebFetch(domain:liquipedia.net)",
+      "WebFetch(domain:egamersworld.com)",
+      "WebFetch(domain:bo3.gg)",
+      "WebFetch(domain:pley.gg)",
+      "WebFetch(domain:dotesports.com)",
+      "WebFetch(domain:www.gosugamers.net)",
+      "WebFetch(domain:www.fpshub.com)",
+      "WebFetch(domain:esports.gg)",
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(node scripts/hltv-match.js:*)",
+      "Bash(python3:*)",
+      "Bash(node scripts/hltv-team.js:*)",
+      "Bash(node scripts/hltv-team-stats.js:*)",
+      "Bash(node scripts/hltv-ranking.js:*)",
+      "Bash(node scripts/hltv-player-stats.js:*)",
+      "Bash(node -e:*)",
+      "Bash(node scripts/hltv-event.js:*)",
+      "WebFetch(domain:docs.polymarket.com)",
+      "WebFetch(domain:gamma-api.polymarket.com)",
+      "WebFetch(domain:clob.polymarket.com)",
+      "Bash(curl:*)",
+      "Bash(node /home/zeh/workspace/esports/cs2/scripts/hltv-team.js:*)",
+      "Bash(node:*)",
+      "Bash(for pid in 3741 19230 19677)",
+      "Bash(do node /home/zeh/workspace/esports/cs2/scripts/hltv-player-stats.js $pid --months 3)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
