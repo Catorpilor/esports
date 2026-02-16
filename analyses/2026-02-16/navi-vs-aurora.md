@@ -405,5 +405,58 @@ X-FACTORS:
 
 ---
 
+## LIVE UPDATE — Match In Progress
+
+### Actual Veto
+
+```
+1. Aurora ban Ancient         (predicted: NAVI ban Overpass)    ✅ (correct, order flipped)
+2. NAVI ban Overpass          (predicted: Aurora ban Ancient)   ✅ (correct, order flipped)
+3. Aurora pick Anubis         (predicted: NAVI pick Mirage)    ✅ (correct, order flipped)
+4. NAVI pick Mirage           (predicted: Aurora pick Anubis)  ✅ (correct, order flipped)
+5. NAVI ban Dust2             (predicted: NAVI ban Inferno)    ❌
+6. Aurora ban Nuke            (predicted: Aurora ban Nuke)     ✅
+7. Decider: Inferno           (predicted: Decider Dust2)       ❌ (cascade)
+```
+
+**Veto Score: 5/7** — Permabans and picks all correct (order was flipped — Aurora banned first). Only miss: NAVI banned Dust2 instead of Inferno, leaving Inferno (their 20% WR map!) as the decider. Same pattern as FaZe banning Dust2 vs PARIVISION — teams are prioritizing removing Aurora's strong Dust2 (63%) over protecting against their own weak map.
+
+### Game 1: Anubis (Aurora Pick) — NAVI 13-9
+
+| Half | NAVI | Aurora | Side |
+|------|------|--------|------|
+| 1st (NAVI CT) | 5 | **7** | Aurora leads at half |
+| 2nd (NAVI T) | **8** | 2 | NAVI 8-2 T-side run |
+| **Total** | **13** | **9** | **NAVI wins** |
+
+**NAVI wins Aurora's signature map — H2H on Anubis now 5-0!** Aurora led 7-5 at halftime with a strong T side, but NAVI's T side was devastating: an 8-2 run to close it out. Aurora's 100% Anubis WR against every other team means nothing against NAVI. The H2H override rule is validated — even with 12+ month old H2H data, the pattern held.
+
+**Series: NAVI leads 1-0**
+
+### Prediction vs Reality Check
+
+- Our model predicted Aurora wins Anubis 13-10. **Wrong winner, close score.**
+- The H2H data (NAVI 4-0 on Anubis) was the correct signal. We gave Aurora the benefit of the doubt due to recency of their 100% WR. The framework's H2H override rule should have been applied more aggressively.
+- **Polymarket Map 2 had NAVI at 59.5%** — the market was actually RIGHT to favor NAVI here, presumably pricing in the H2H. Our "value call" on Aurora Map 2 was wrong.
+
+### Remaining Maps
+- Map 2: **Mirage** (NAVI pick) — NAVI 50% WR, Aurora 25% WR, **H2H: NAVI 4-0**
+- Map 3: **Inferno** (Decider, if needed) — NAVI 20% WR, Aurora 67% WR, H2H: 2-2
+
+### Updated Series Outlook
+
+NAVI up 1-0 having won Aurora's map pick. Heading to Mirage where NAVI is also 4-0 H2H.
+
+- **NAVI 2-0 (~60%)** — NAVI is 4-0 vs Aurora on Mirage and Aurora is 25% overall. After losing Anubis again, Aurora's mental state is fragile.
+- **NAVI 2-1 (~25%)** — Aurora somehow takes Mirage (breaking the 0-4 curse), but NAVI wins Inferno decider despite 20% WR.
+- **Aurora 2-1 (~15%)** — Aurora would need to win Mirage AND Inferno. Requires a complete mental reset after Anubis heartbreak.
+
+### Framework Lesson
+
+**H2H override should be applied even more aggressively.** When H2H is 4-0+ on a specific map, favor the H2H-dominant team REGARDLESS of overall WR disparity. Aurora's 100% Anubis vs NAVI's 0% was misleading — the matchup-specific data was the only signal that mattered.
+
+---
+
 *Analysis generated from HLTV.org and Polymarket data on February 16, 2026*
+*Live updates added during match*
 *Data sources: HLTV API (match, team, player endpoints), Polymarket Gamma API, web search for PGL Cluj context*
