@@ -325,3 +325,5 @@ X-FACTORS:
 ---
 
 *Analysis generated from HLTV.org data on February 17, 2026*
+
+**Backtest:** [backtests/faze-vs-astralis-backtest.md](backtests/faze-vs-astralis-backtest.md) — Series ❌ (Astralis 2-0) | Market 1/3 | Veto 1/7
