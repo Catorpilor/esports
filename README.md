@@ -9,15 +9,33 @@ Data-driven Counter-Strike 2 match analysis combining HLTV stats, Polymarket bet
 3. Fetches Polymarket odds (moneyline, map winners, O/U, handicap)
 4. Generates a full analysis report with veto prediction, map-by-map breakdown, and prediction vs market comparison
 5. Saves to `analyses/YYYY-MM-DD/{team1}-vs-{team2}.md`
+6. After match concludes, backtests are saved to `analyses/YYYY-MM-DD/backtests/{team1}-vs-{team2}-backtest.md`
 
 ## Project Structure
 
 ```
 cs2/
-├── analyses/          # Match reports and backtests by date
+├── analyses/                    # Match reports by date
 │   ├── 2026-02-15/
-│   └── 2026-02-16/
-├── scripts/           # HLTV data fetching scripts
+│   │   └── falcons-vs-faze.md
+│   ├── 2026-02-16/
+│   │   ├── navi-vs-aurora.md
+│   │   ├── faze-vs-parivision.md
+│   │   ├── mongolz-vs-b8.md
+│   │   ├── mouz-vs-vitality.md
+│   │   ├── g2-vs-pain.md
+│   │   └── backtests/           # Post-match backtests
+│   │       ├── navi-vs-aurora-backtest.md
+│   │       ├── faze-vs-parivision-backtest.md
+│   │       ├── mongolz-vs-b8-backtest.md
+│   │       ├── mouz-vs-vitality-backtest.md
+│   │       ├── g2-vs-pain-backtest.md
+│   │       └── furia-vs-falcons-backtest.md
+│   └── 2026-02-17/
+│       ├── faze-vs-astralis.md
+│       ├── mouz-vs-fut.md
+│       └── furia-vs-parivision.md
+├── scripts/                     # HLTV data fetching scripts
 │   ├── hltv-match.js
 │   ├── hltv-matches.js
 │   ├── hltv-team.js
@@ -26,7 +44,7 @@ cs2/
 │   ├── hltv-results.js
 │   ├── hltv-ranking.js
 │   └── hltv-event.js
-└── package.json       # hltv npm dependency
+└── package.json                 # hltv npm dependency
 ```
 
 ## Setup
@@ -52,7 +70,7 @@ All scripts output JSON to stdout.
 
 ## Analysis Reports
 
-Each report covers:
+Each pre-match report covers:
 
 - **Polymarket Odds** — ML, map winners, O/U 2.5, handicap with volume/liquidity
 - **Team Overview** — Rankings, form, win rates, star players
@@ -63,6 +81,23 @@ Each report covers:
 - **H2H History** — Previous meetings with map-level detail
 - **Tournament Context** — Stakes, bracket position, format
 - **Prediction vs Market** — Edge calculation against Polymarket odds, value play identification
+
+## Backtests
+
+After matches conclude, backtest reports compare predictions against actual results:
+
+- Veto accuracy (predicted vs actual, X/7 score)
+- Map-by-map prediction vs outcome
+- Market call assessment (value plays that hit or missed)
+- Lessons learned fed back into the analysis framework (28 principles and counting)
+
+### Track Record (PGL Cluj-Napoca 2026)
+
+| Metric | Score |
+|--------|-------|
+| Series Winner | 5/6 (83%) |
+| Market Calls | 11/17 (65%) |
+| Veto Accuracy | 18/35 (51%) |
 
 ## Data Sources
 
