@@ -343,3 +343,5 @@ The series hinges on the decider. Without H2H data and with both teams volatile 
 ---
 
 *Analysis generated from HLTV.org data on February 17, 2026*
+
+**Backtest:** [backtests/mouz-vs-fut-backtest.md](backtests/mouz-vs-fut-backtest.md) — Series ✅ (MOUZ won) | Market 0/2 | Veto 1/7
