@@ -351,3 +351,5 @@ The swing factor is whether PRV can steal Mirage (as they did in H2H). If they d
 ---
 
 *Analysis generated from HLTV.org data on February 17, 2026*
+
+**Backtest:** [backtests/furia-vs-parivision-backtest.md](backtests/furia-vs-parivision-backtest.md) — Series ✅ (FURIA 2-1) | Market 2/2 | Veto 0/7
