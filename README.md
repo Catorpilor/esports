@@ -31,15 +31,19 @@ cs2/
 │   │       ├── mouz-vs-vitality-backtest.md
 │   │       ├── g2-vs-pain-backtest.md
 │   │       └── furia-vs-falcons-backtest.md
-│   └── 2026-02-17/
-│       ├── faze-vs-astralis.md
-│       ├── mouz-vs-fut.md
-│       ├── furia-vs-parivision.md
+│   ├── 2026-02-17/
+│   │   ├── faze-vs-astralis.md
+│   │   ├── mouz-vs-fut.md
+│   │   ├── furia-vs-parivision.md
+│   │   └── backtests/
+│   │       ├── mouz-vs-fut-backtest.md
+│   │       ├── faze-vs-astralis-backtest.md
+│   │       ├── navi-vs-mongolz-backtest.md
+│   │       └── furia-vs-parivision-backtest.md
+│   └── 2026-02-21/
+│       ├── parivision-vs-mouz.md
 │       └── backtests/
-│           ├── mouz-vs-fut-backtest.md
-│           ├── faze-vs-astralis-backtest.md
-│           ├── navi-vs-mongolz-backtest.md
-│           └── furia-vs-parivision-backtest.md
+│           └── parivision-vs-mouz-backtest.md
 ├── scripts/                     # HLTV data fetching scripts
 │   ├── hltv-match.js
 │   ├── hltv-matches.js
@@ -94,14 +98,14 @@ After matches conclude, backtest reports compare predictions against actual resu
 - Veto accuracy (predicted vs actual, X/7 score)
 - Map-by-map prediction vs outcome
 - Market call assessment (value plays that hit or missed)
-- Lessons learned fed back into the analysis framework (37 principles and counting)
+- Lessons learned fed back into the analysis framework (40 principles and counting)
 
 ### Track Record (PGL Cluj-Napoca 2026)
 
 | Metric | Score |
 |--------|-------|
-| Series Winner | 8/11 (73%) |
-| Market Calls | 15/29 (52%) |
+| Series Winner | 8/13 (62%) |
+| Market Calls | 16/30 (53%) |
 | Veto Accuracy | 22/70 (31%) |
 
 ## Data Sources
