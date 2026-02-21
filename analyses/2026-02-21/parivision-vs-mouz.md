@@ -180,3 +180,5 @@ The first 4 steps are identical. The adjustment: MOUZ now leaves Mirage as decid
 ---
 
 *Analysis generated from HLTV.org match data (ID: 2389984) on February 21, 2026*
+
+**Backtest:** [backtests/parivision-vs-mouz-backtest.md](backtests/parivision-vs-mouz-backtest.md) — Series ❌ (PRV 2-0) | Market 1/1 | Maps 1/2
