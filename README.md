@@ -40,10 +40,15 @@ cs2/
 │   │       ├── faze-vs-astralis-backtest.md
 │   │       ├── navi-vs-mongolz-backtest.md
 │   │       └── furia-vs-parivision-backtest.md
-│   └── 2026-02-21/
-│       ├── parivision-vs-mouz.md
+│   ├── 2026-02-21/
+│   │   ├── parivision-vs-mouz.md
+│   │   ├── vitality-vs-mongolz.md
+│   │   └── backtests/
+│   │       └── parivision-vs-mouz-backtest.md
+│   └── 2026-02-22/
+│       ├── mongolz-vs-mouz.md
 │       └── backtests/
-│           └── parivision-vs-mouz-backtest.md
+│           └── mongolz-vs-mouz-backtest.md
 ├── scripts/                     # HLTV data fetching scripts
 │   ├── hltv-match.js
 │   ├── hltv-matches.js
@@ -98,14 +103,14 @@ After matches conclude, backtest reports compare predictions against actual resu
 - Veto accuracy (predicted vs actual, X/7 score)
 - Map-by-map prediction vs outcome
 - Market call assessment (value plays that hit or missed)
-- Lessons learned fed back into the analysis framework (40 principles and counting)
+- Lessons learned fed back into the analysis framework (43 principles and counting)
 
 ### Track Record (PGL Cluj-Napoca 2026)
 
 | Metric | Score |
 |--------|-------|
-| Series Winner | 8/13 (62%) |
-| Market Calls | 16/30 (53%) |
+| Series Winner | 9/14 (64%) |
+| Market Calls | 16/32 (50%) |
 | Veto Accuracy | 22/70 (31%) |
 
 ## Data Sources
