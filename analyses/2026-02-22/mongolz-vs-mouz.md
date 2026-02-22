@@ -193,3 +193,5 @@
 ---
 
 *Analysis generated from HLTV.org match data (ID: 2389986) on February 22, 2026*
+
+**Backtest:** [backtests/mongolz-vs-mouz-backtest.md](backtests/mongolz-vs-mouz-backtest.md) — Series ✅ (MOUZ 2-0) | Market 0/2 | Maps 1/2
