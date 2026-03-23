@@ -378,3 +378,5 @@ The market is pricing this as a comfortable NAVI win (72%), driven by the 4-0 se
 ---
 
 *Analysis generated from HLTV.org data on March 23, 2026. Match is LIVE at time of writing (Map 1 in progress). Pre-match Polymarket odds used where possible; Map 1 prices are live-adjusted.*
+
+**Backtest:** [backtests/navi-vs-aurora-backtest.md](backtests/navi-vs-aurora-backtest.md) — Series ✅ (NAVI 2-0, predicted 2-1) | Market 0/2 | Veto N/A (known)
