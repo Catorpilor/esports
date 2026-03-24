@@ -405,3 +405,5 @@ RED FLAGS:
 ---
 
 *Analysis generated from HLTV.org data on March 23, 2026*
+
+**Backtest:** [backtests/parivision-vs-vitality-backtest.md](backtests/parivision-vs-vitality-backtest.md) — Series ✅ (VIT 2-0) | Market 0/4 | Veto 5/7
