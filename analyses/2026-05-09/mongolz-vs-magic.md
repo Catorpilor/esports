@@ -245,3 +245,5 @@
 ---
 
 *Analysis generated from HLTV match data + Polymarket Gamma API on 2026-05-09. Match was already live at the time of analysis (Map 1 Mirage, halftime MongolZ 3 - magic 9). H2H: no prior matches between these rosters.*
+
+**Backtest:** [backtests/mongolz-vs-magic-backtest.md](backtests/mongolz-vs-magic-backtest.md) — Series ✓ direction (MongolZ 2-0, predicted MongolZ 2-1) | Market 0/2 (Over 2.5 ❌, magic -1.5 ❌) | Map 1 Mirage 25-23 in 4OT (epic comeback from 3-9 H1) | Map 2 Inferno 13-4 dominant. Adds principles #48-#51 on live Polymarket overreaction, single-half noise, opponent-quality-adjusted pick map priors, and universal mental reset.
