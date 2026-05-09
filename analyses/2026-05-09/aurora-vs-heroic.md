@@ -249,3 +249,5 @@ The veto has already been completed:
 ---
 
 *Analysis generated from HLTV match data + Polymarket Gamma API on 2026-05-09. Match was already live at the time of analysis (Map 1 Nuke, halftime 7-5 Aurora on CT).*
+
+**Backtest:** [backtests/aurora-vs-heroic-backtest.md](backtests/aurora-vs-heroic-backtest.md) — Series ❌ (HEROIC 2-0, 8-13 Nuke + 11-13 Dust2) | Market 1/2 (live HER ML ✅, pre-match Over 2.5 ❌) | Veto N/A (post-veto analysis)
