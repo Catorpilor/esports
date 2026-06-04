@@ -199,3 +199,5 @@ My recent live calls have been mixed — I've twice over-claimed large edges tha
 ---
 
 *Analysis generated from HLTV match data + Polymarket Gamma API on 2026-06-04. Match live, TYLOO 0-1 down (lost Nuke 6-13, Sharks' pick). HLTV pre-match (29 books): TYLOO 51.6% / Sharks 48.4% — coinflip. No H2H between these rosters.*
+
+**Backtest:** [backtests/tyloo-vs-sharks-backtest.md](backtests/tyloo-vs-sharks-backtest.md) — Series ❌ (TYLOO 2-1 reverse sweep) | Map 2 read ✅ (TYLOO 13-5 Inferno) | Final live call ✅ (TYLOO ML @ 40.5% after Anubis side-balance correction). Adds principles #52-#54 (verify map-meta freshness, "must-win-2" underdogs are live, decider pricing collapses to 50/50).
