@@ -172,3 +172,50 @@ Strong priors from the H2H:
 ---
 
 *Analysis generated from HLTV match data + Polymarket Gamma API on 2026-06-11. Match scheduled (pre-veto). HLTV pre-match (34 books): MOUZ 56.3% / Legacy 43.7%. Polymarket: MOUZ 54.5% / Legacy 45.5% — aligned. H2H: MOUZ 4-2 in maps, won both recent series 2-1; Legacy took a map in each (Dust2, Ancient).*
+
+---
+
+## VETO UPDATE (locked)
+
+1. Legacy ban Overpass
+2. MOUZ ban Anubis
+3. **Legacy pick Dust2** ← Map 1
+4. **MOUZ pick Nuke** ← Map 2
+5. MOUZ ban Ancient (smart — removes Legacy's 13-4 map)
+6. Legacy ban Inferno (removes MOUZ's 2-0 H2H map)
+7. **Decider: Mirage** ← Map 3
+
+**This veto matters a lot, and it tilts the series toward MOUZ despite Legacy getting a strong Map 1:**
+
+- **Map 1 Dust2 (Legacy pick):** Legacy beat MOUZ 13-9 here at IEM Rio. **Legacy favored ~58-60%.**
+- **Map 2 Nuke (MOUZ pick):** MOUZ beat Legacy 13-10 here at BLAST Austin. **MOUZ favored ~60-62%.**
+- **Map 3 Mirage (decider):** **MOUZ blew Legacy out 13-4** on Mirage at IEM Rio. Even discounting that single result for age/sample (Principle #22), MOUZ is clearly favored on the decider — **~60-65% MOUZ.** Legacy banned Inferno LAST and left Mirage in, which is a questionable decider choice given that 13-4 (either they think they've fixed it, or they feared Inferno more).
+
+**Key insight:** the two pick maps split cleanly (each team favored on their own), so the series is **very likely to reach a Mirage decider — which is MOUZ's best map vs Legacy.** That's why MOUZ stays the series favorite.
+
+### Updated probabilities (post-veto)
+
+- P(MOUZ wins Dust2) ≈ 40% | P(MOUZ wins Nuke) ≈ 62% | P(MOUZ wins Mirage) ≈ 62%
+
+| Scenario | Probability |
+|---|---|
+| MOUZ 2-1 (lose Dust2, win Nuke + Mirage) | **~33%** |
+| MOUZ 2-0 (win Dust2 + Nuke) | **~25%** |
+| Legacy 2-0 (win Dust2 + Nuke) | **~23%** |
+| Legacy 2-1 (win Dust2, lose Nuke, win Mirage) | **~20%** |
+
+**Series ML:** MOUZ ~57% | Legacy ~43% (matches market).
+
+### Updated market calls (post-veto)
+
+| Outcome | My Prob | Polymarket | Edge | Signal |
+|---|---|---|---|---|
+| **Legacy +1.5 maps** | **~75%** | 67.5% | **+7.5%** | **TOP VALUE now** ⚡ |
+| **Over 2.5 maps** | ~52% | 48% | +4% | Lean (confirmed by clean pick split) |
+| MOUZ ML | ~57% | 54.5% | +2.5% | Small value |
+| Legacy ML | ~43% | 45.5% | -2.5% | Fair |
+| MOUZ -1.5 (2-0) | ~25% | 32.5% | -7.5% | **Fade** |
+
+**The veto UPGRADED Legacy +1.5 to the top play:** Legacy is favored on their own Dust2 pick (Map 1), so P(Legacy wins ≥1 map) = 1 − P(MOUZ 2-0) ≈ 75%, vs market 67.5%. MOUZ 2-0 requires winning Legacy's Dust2 — unlikely. **Fade MOUZ -1.5 / back Legacy +1.5.**
+
+**Map predictions:** Legacy take Dust2 → MOUZ take Nuke → MOUZ win Mirage decider. **Series lean: MOUZ 2-1 (~33%, the single most likely outcome).**
